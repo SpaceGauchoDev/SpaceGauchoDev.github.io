@@ -19,6 +19,22 @@ h2 {
     margin: 0;
 }
 
+h3 {
+    font-weight: 400;
+    font-size: 0.7rem;
+    /*text-transform: capitalize;*/
+    margin: 0;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 1.0rem;
+    /*text-transform: capitalize;*/
+    margin: 0;
+}
+
+
+
 img {
     display: block;
     width: 100%;
@@ -87,7 +103,7 @@ footer h3 {
 }
 
 #landing-image{
-    background: url('../media/myPicture.jpg');
+    background: url('../media/picture(900x1600).jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
