@@ -90,6 +90,7 @@ main {
     text-align: center;
 }
 
+/*
 footer{
     text-align: center;
     padding: 2rem 1rem;
@@ -101,6 +102,7 @@ footer h3 {
     font-size: 3rem;
     margin-bottom: 0; 
 }
+*/
 
 #landing-image{
     background: url('../media/picture(900x1600).jpg');
@@ -112,16 +114,14 @@ footer h3 {
     margin: 0;
 }
 
-
-
-/*button*/
+/*
 .btn {
-    padding: 0.5rem 2rem; /*top&bottom left&right*/
+    padding: 0.5rem 2rem;
     border: 1px #ccc solid;
     display: inline-block;
     margin: 2rem 0 0;
-    border-radius: 10px; /* button corner roundness */
-    text-decoration: none; /*removes html link default underline*/
+    border-radius: 10px;
+    text-decoration: none;
     color: #333;
     transition: background 500ms ease-in-out;
 }
@@ -129,6 +129,24 @@ footer h3 {
 .btn:hover {
     background: #f4f4f4;
 }
+*/
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.btn:hover {
+    background: #f4f4f4;
+}
+
+
+
 
 
 /* Screen Sizes 500px and up*/
